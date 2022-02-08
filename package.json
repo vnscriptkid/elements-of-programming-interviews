@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@types/jest": "^27.4.0",
+    "collections": "^5.1.13",
     "jest": "^27.4.7",
     "typescript": "^4.5.5"
   },
