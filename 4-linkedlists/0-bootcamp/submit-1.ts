@@ -1,6 +1,6 @@
 class Node<T> {
   val: T;
-  next: Node<T>;
+  next: Node<T> | null;
 
   constructor(val: T, next = null) {
     this.val = val;
@@ -13,7 +13,7 @@ class Node<T> {
    * @returns Node
    */
   static search(head: Node<number>, key: number): Node<number> | null {
-    let cur = head;
+    let cur: Node<number> | null = head;
 
     while (cur) {
       if (cur.val === key) return cur;
@@ -34,7 +34,9 @@ class Node<T> {
 
   // delete a node immedidately following a node. Assumes aNode is not a tail
   static deleteRightAfter(aNode: Node<number>) {
-    aNode.next = aNode.next.next;
+    if (aNode.next !== null) {
+      aNode.next = aNode.next.next;
+    }
   }
 }
 
