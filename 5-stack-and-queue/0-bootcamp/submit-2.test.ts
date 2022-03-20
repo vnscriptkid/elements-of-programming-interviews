@@ -1,4 +1,4 @@
-import { printLinkedlistInReverse, Node } from ".";
+import { printLinkedlistInReverse, Node } from "./submit-2";
 
 test("printLinkedlistInReverse", () => {
   const node1 = new Node(1);

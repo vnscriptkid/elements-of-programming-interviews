@@ -2,7 +2,7 @@ class Node<T> {
   val: T;
   next: Node<T> | null;
 
-  constructor(val: T, next: Node<T> = null) {
+  constructor(val: T, next: Node<T> | null = null) {
     this.val = val;
     this.next = next;
   }
@@ -19,7 +19,7 @@ class Stack<T> {
     return this.data.push(val);
   }
 
-  pop(): T {
+  pop(): T | undefined {
     return this.data.pop();
   }
 
@@ -28,14 +28,14 @@ class Stack<T> {
   }
 }
 
-function printLinkedlistInReverse(head: Node<number>): number[] {
+function printLinkedlistInReverse(head: Node<number>): any {
   const stack = new Stack<number>();
 
   // 1 -> 2 -> 3 -> null;
   //           ^
 
   // [1, 2, 3]
-  let cur = head;
+  let cur: Node<number> | null = head;
 
   while (cur) {
     stack.push(cur.val);
