@@ -8,12 +8,14 @@
     "test": "jest",
     "lint": "eslint . --fix",
     "validate": "npm-run-all --parallel test lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "nodemon"
   },
   "dependencies": {
     "@types/jest": "^27.4.0",
     "collections": "^5.1.13",
     "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
     "typescript": "^4.5.5"
   },
   "devDependencies": {
@@ -28,6 +30,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
     "husky": "^7.0.4",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.7.0"
   }
 }
