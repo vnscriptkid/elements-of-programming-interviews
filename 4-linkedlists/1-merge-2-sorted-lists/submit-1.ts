@@ -1,6 +1,6 @@
 class Node<T> {
   val: T;
-  next: Node<T>;
+  next: Node<T> | null;
 
   constructor(val: T, next = null) {
     this.val = val;
@@ -14,14 +14,14 @@ function merge(head1: Node<number>, head2: Node<number>) {
   // 3 -> 11 -> null
   // ^
 
-  let cur1 = head1;
-  let cur2 = head2;
+  let cur1: Node<number> | null = head1;
+  let cur2: Node<number> | null = head2;
 
   let cur3 = null;
   let newHead = null;
 
   while (cur1 && cur2) {
-    const smaller = cur1.val <= cur2.val ? cur1 : cur2;
+    const smaller: any = cur1.val <= cur2.val ? cur1 : cur2;
 
     if (cur3) {
       cur3.next = smaller;

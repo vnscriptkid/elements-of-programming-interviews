@@ -1,4 +1,4 @@
-function strToInt(str) {
+function strToInt(str: string) {
   const digits = str.split("");
 
   let output = 0;
@@ -16,7 +16,7 @@ function strToInt(str) {
   return output;
 }
 
-function intToStr(num) {
+function intToStr(num: number) {
   let n = num;
 
   // 123
