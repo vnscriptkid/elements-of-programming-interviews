@@ -11,7 +11,16 @@
       "skipFiles": ["<node_internals>/**"],
       "runtimeArgs": ["-r", "ts-node/register"],
       "runtimeExecutable": "node",
-      "program": "${workspaceFolder}/4-linkedlists/8.2-reverse-single-sublist/submit-1.ts",
+      "program": "${workspaceFolder}/12-recursion/16.2-n-queens/submit-1.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Current File",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "program": "${file}",
+      "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
