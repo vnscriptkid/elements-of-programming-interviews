@@ -1,7 +1,7 @@
 ## 4. Primitive Types
 
-- 4.1 Computing the parity of a word
-- 4.2 Swap bits
+- 🍏 4.1 Computing the parity of a word
+- 🍏 4.2 Swap bits
 - 4.3 Reverse bits
 - 4.4 Find a closest integer with the same weight
 - 4.5 Compute x \* y without arithmetical operators
@@ -14,8 +14,8 @@
 
 ## 5. Arrays
 
-- 5.2 Increment an arbitrary-precision integer
-- 5.3 Multiply two arbitrary-precision integers
+- 🍏 5.2 Increment an arbitrary-precision integer
+- 🍏 5.3 Multiply two arbitrary-precision integers
 - 5.4 Advancing through an array
 - 5.5 Delete duplicates from a sorted array .
 - 5.6 Buy and sell a stock once
@@ -36,8 +36,8 @@
 
 ## 6. Strings
 
-- 6.1 Interconvert strings and integers
-- 6.2 Base conversion
+- 🍏 6.1 Interconvert strings and integers
+- 🍏 6.2 Base conversion
 - 6.3 Compute the spreadsheet column encoding .
 - 6.4 Replace and remove
 - 6.5 Testpalindromicity
@@ -52,8 +52,8 @@
 
 ## 7. Linked Lists
 
-- 7.1 Merge two sorted lists
-- 7.2 Reverse a single sublist
+- 🍏 7.1 Merge two sorted lists
+- 🍏 7.2 Reverse a single sublist
 - 7.3 Test for cyclicity
 - 7.4 Test for overlapping lists-lists are cycle-free
 - 7.5 Test for overlapping lists-lists may have cycles
@@ -68,8 +68,8 @@
 
 ## 8. Stacks and Queues
 
-- 8.1 Implement a stack with max API
-- 8.2 Evaluate RPN expressions
+- 🍏 8.1 Implement a stack with max API
+- 🍏 8.2 Evaluate RPN expressions
 - Test a string over "l,l,(,),1,f" for well-formedness
 - Normalize pathnames
 - Compute buildings with a sunset view .
@@ -80,8 +80,8 @@
 
 ## 9. Binary Trees
 
-- 9.1 Test if a binary tree is height-balanced
-- 9.2 Test if a binary tree is symmetric
+- 🍏 9.1 Test if a binary tree is height-balanced
+- 🍏 9.2 Test if a binary tree is symmetric
 - 9.3 Compute the lowest common ancestor in a binary tree .
 - 9.4 Compute the LCA when nodes have parent pointers
 - 9.5 Sum the root-to-leaf paths in a binary tree
@@ -99,8 +99,8 @@
 
 ## 10. Heaps
 
-- 10.1 Merge sorted files
-- 10.2 Sort an increasing-decreasing array .
+- 🍏 10.1 Merge sorted files
+- 🍏 10.2 Sort an increasing-decreasing array .
 - 10.3 Sort an almost-sorted array
 - 70.4 Compute the k closest stars .
 - 10.5 Compute the median of online data . .
@@ -108,8 +108,8 @@
 
 ## 11 Searching
 
-- 11.1 Search a sorted array for first occurrence ofk
-- 11.2 Search a sorted array for entry equal to its index
+- 🍏 11.1 Search a sorted array for first occurrence ofk
+- 🍏 11.2 Search a sorted array for entry equal to its index
 - 11.3 Search a cyclically sorted array
 - 11.4 Compute the integer square root
 - 11.5 Compute the real square root
@@ -121,8 +121,8 @@
 
 ## Hash Tables
 
-- Test for palindromic permutations
-- Is an anonymous letter constructible?
+- 🍏 Test for palindromic permutations
+- 🍏 Is an anonymous letter constructible?
 - Implement an ISBN cache
 - Compute the LCA, optimizing for close ancestors
 - Find the nearest repeated entries in an array
@@ -136,8 +136,8 @@
 
 ## 13. Sorting
 
-- 13.1 Compute the intersection of two sorted arrays
-- 13.2 Merge two sorted arrays
+- 🍏 13.1 Compute the intersection of two sorted arrays
+- 🍏 13.2 Merge two sorted arrays
 - 13.3 Remove first-name duplicates
 - 13.4 Smallestnonconstructiblevalue
 - 13.5 Render a calendar
@@ -150,8 +150,8 @@
 
 ## 14. Binary Search Tiees
 
-- 14.1, Test if a binary tree satisfies the BST property . . . .
-- 14.2 Find the first key greater than a given value in a BST
+- 🍏 14.1, Test if a binary tree satisfies the BST property . . . .
+- 🍏 14.2 Find the first key greater than a given value in a BST
 - 14.3 Find the k largest elements in a BST
 - 14.4 Compute the LCA in a BST
 - 14.5 Reconstruct a BST from traversal data
@@ -164,8 +164,8 @@
 
 ## 15. Recursion
 
-- 15.1 The Towers of Hanoi problem
-- 75.2 Generate all nonattacking placements of ,4-Queens
+- 🍏 15.1 The Towers of Hanoi problem
+- 🍏 75.2 Generate all nonattacking placements of ,4-Queens
 - 15.3 Generatepermutations
 - 15.4 Generate the power set
 - 15.5 Generate all subsets of size k . . . .
@@ -177,8 +177,8 @@
 
 ## 16. Dynamic Programming
 
-- 16.1, Count the number of score combinations
-- 16.2 Compute the Levenshtein distance
+- 🍏 16.1, Count the number of score combinations
+- 🍏 16.2 Compute the Levenshtein distance
 - 16.3 Count the number of ways to traverse a2D array .
 - 16.4 Compute the binomial coefficients
 - 16.5 Search for a sequence in a 2D array
@@ -192,8 +192,8 @@
 
 ## 17. Greedy Algorithms and Invariants
 
-- 17.1. Compute an optimum assignment of tasks
-- 17.2 Schedule to minimize waiting time .
+- 🍏 17.1. Compute an optimum assignment of tasks
+- 🍏 17.2 Schedule to minimize waiting time .
 - 77.3 The interval covering problem
 - 17.4 The 3-sum problem
 - 17.5 Find the majority element
@@ -203,8 +203,8 @@
 
 ## 18 Graphs
 
-- 18.1 Search amaze
-- 18.2 Paint a Boolean matrix
+- 🍏 18.1 Search amaze
+- 🍏 18.2 Paint a Boolean matrix
 - 18.3 Compute enclosed regions . .
 - 18.4 Deadlockdetection
 - 18.5 Clone a graph
