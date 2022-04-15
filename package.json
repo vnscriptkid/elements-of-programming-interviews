@@ -1,11 +1,11 @@
 {
-  "name": "elementOfProgrammingInterviews",
+  "name": "element-of-programming-interviews",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Thanh Nguyen <vnscriptkid@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "lint": "eslint . --fix",
     "validate": "npm-run-all --parallel test lint",
     "prepare": "husky install",
