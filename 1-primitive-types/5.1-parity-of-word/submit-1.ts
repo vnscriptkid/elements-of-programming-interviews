@@ -16,5 +16,3 @@ export function parity(x: number): 0 | 1 {
 
   return countOnes % 2 === 1 ? 1 : 0;
 }
-
-parity(99);
