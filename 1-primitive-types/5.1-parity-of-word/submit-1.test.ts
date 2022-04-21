@@ -4,7 +4,7 @@ function findParity(num: number): 0 | 1 {
   return Number(num)
     .toString(2)
     .split("")
-    .filter((x) => !!x).length %
+    .filter((x) => x === "1").length %
     2 ===
     1
     ? 1

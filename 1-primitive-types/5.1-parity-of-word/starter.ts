@@ -5,14 +5,6 @@
 // Parity checks are used to detect single bit errors in data storage and communication.
 // It is fairly straightforward to write code that computes the parity of a single 64-bit word.
 
-export function parity(x: number): 0 | 1 {
-  let countOnes = 0;
-
-  while (x !== 0) {
-    countOnes += x & 1;
-
-    x = x >> 1;
-  }
-
-  return countOnes % 2 === 1 ? 1 : 0;
+export function parity(x: number) {
+  return 1;
 }
