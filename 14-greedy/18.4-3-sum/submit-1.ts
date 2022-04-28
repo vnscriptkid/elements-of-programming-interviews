@@ -18,6 +18,8 @@ export function hasThreeSum(list: number[], target: number) {
   //       n-1
   // x  y  z
 
+  list.sort();
+
   for (let first = 0; first <= list.length - 3; first++) {
     let second = first + 1,
       third = list.length - 1;
