@@ -28,7 +28,6 @@ export function sumRootToLeaf(
 
   if (tree.left === null && tree.right === null) {
     // leaf node
-    console.log({ cur });
     sum.value += parseInt(cur.join(""), 2) || 0;
     return sum.value;
   }
