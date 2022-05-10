@@ -18,7 +18,7 @@
 - 🍏 5.3 Multiply two arbitrary-precision integers
 - 🍏 5.4 Advancing through an array
 - 🍏 5.5 Delete duplicates from a sorted array .
-- 5.6 Buy and sell a stock once
+- 🍏 5.6 Buy and sell a stock once
 - 5.7 Buy and sell a stock twice
 - Computing an altemation
 - Enumerate all primes to n
@@ -196,7 +196,7 @@
 - 🍏 17.2 Schedule to minimize waiting time .
 - 🍏 17.3 The interval covering problem
 - 🍏 17.4 The 3-sum problem
-- 17.5 Find the majority element
+- 🍏 17.5 Find the majority element
 - 17.6 The gasup problem
 - 17.7 Compute the maximum water trapped by a pair of vertical lines .
 - 17.8 Compute the largest rectangle under the skyline
@@ -207,7 +207,7 @@
 - 🍏 18.2 Paint a Boolean matrix
 - 🍏 18.3 Compute enclosed regions . .
 - 🍏 18.4 Deadlockdetection
-- 18.5 Clone a graph
+- 🍏 18.5 Clone a graph
 - 18.6 Making wired connections
 - 18.7 Transform one string to another
 - 18.8 Team photo day-2
