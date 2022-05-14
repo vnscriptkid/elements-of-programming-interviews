@@ -13,8 +13,6 @@ test("it works", () => {
 
   deletionFromList(node2);
 
-  console.log({ node1 });
-
   expect(node1.value).toEqual(1);
   expect(node1.next?.value).toEqual(3);
   expect(node1.next?.next?.value).toEqual(4);
