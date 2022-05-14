@@ -10,7 +10,7 @@
 // with less than the 2(n - 1) comparisons required to compute the min and the max independently.
 
 // Design an algorithm to find the min and max elements in an array. For example,
-// if A =(3,2,5,1,2,4), youshould return1for the min and 5for the max.
+// if A =(3,2,5,1,2,4), youshould retrn1for the min and 5for the max.
 
 // Hint: Use the fact that a < b and b < c implies a < c
 // to reduce the number of compares used by the brute-force approach.
