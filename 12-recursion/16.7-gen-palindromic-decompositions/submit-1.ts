@@ -38,5 +38,3 @@ function recurse(
     }
   }
 }
-
-palindromePartitioning("0204451881");
