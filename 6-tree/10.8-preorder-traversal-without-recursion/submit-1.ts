@@ -1,3 +1,5 @@
+// IMPLEMENT A PREORDER TRAVERSAL WITHOUT RECURSION
+
 // This problem is concerned with traversing nodes in a binary tree in preorder fashion.
 // See Page 151 for details and examples of these traversals.
 // Generally speaking, a traversal computation is easy to implement if recursion is allowed.
@@ -10,12 +12,12 @@
 // (Thetopofthestackis the rightmost node in the sequences.)
 
 export class TreeNode {
-  value: number;
+  value: string;
   left: TreeNode | null;
   right: TreeNode | null;
 
   constructor(
-    value: number,
+    value: string,
     left: TreeNode | null = null,
     right: TreeNode | null = null
   ) {
@@ -25,6 +27,29 @@ export class TreeNode {
   }
 }
 
-export function preorderTraversal(tree: TreeNode): number[] {
-  return [];
+export function preorderTraversal(tree: TreeNode): string {
+  //           A
+  //          / \
+  //         B   C
+  //        /\   /\
+  //       D  E F  G
+  //      /\      /
+  //     H  I    J
+
+  // [CE]
+  // D
+  // result: 'ABD'
+
+  let stack = [tree];
+  let result = "";
+
+  while (stack.length) {
+    const node = stack.pop();
+    result += node!.value;
+
+    if (node!.right) stack.push(node!.right);
+    if (node!.left) stack.push(node!.left);
+  }
+
+  return result;
 }
