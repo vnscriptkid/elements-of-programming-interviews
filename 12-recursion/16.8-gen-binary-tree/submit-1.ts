@@ -53,8 +53,3 @@ function helper(start: number, end: number): BTNode[] | null[] {
   }
   return trees;
 }
-
-const r = generateAllBinaryTrees(3);
-console.log(r);
-
-// 1 2 3 4 5

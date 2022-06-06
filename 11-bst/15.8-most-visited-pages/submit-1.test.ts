@@ -31,9 +31,6 @@ test("it works", () => {
       // 8. g, (g:2)
       // 9. t, (t:3)
       // 10. c, (c:1)
-      console.log(cal.findMostVisited(1));
-      console.log(cal.findMostVisited(2));
-      console.log(cal.findMostVisited(3));
 
       expect(cal.findMostVisited(1)).toEqual(["a"]);
       expect(cal.findMostVisited(2)).toEqual(["a", "t"]);
