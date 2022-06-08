@@ -6,7 +6,5 @@ test("it works", () => {
     new Set(["a", "man", "plan", "canal"])
   );
 
-  console.log({ result });
-
   expect(result).toEqual(["a", "man", "a", "plan", "a", "canal"]);
 });
