@@ -1,0 +1,10 @@
+// 13.9 FINDTHE LONGEST SUBARRAY WITH DISTINCT ENTRIES
+
+// Write a program that takes an array and returns the length of a longest subarray
+// with the property that all its elements are distinct.
+// For example, if the array is (f,s,f,e,t,w,e,n,w,e) then a longest subarray all
+// of whose elements are distinct is (s,f,e,t,w).
+
+export function longestSubarrayWithDistinctEntries(list: number[]): number {
+  return 0;
+}
