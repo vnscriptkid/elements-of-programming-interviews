@@ -22,7 +22,7 @@
 - 🍏 5.7 Buy and sell a stock twice
 - Computing an altemation
 - 🍏 Enumerate all primes to n
-- Permute the elements of an array .
+- 🍏Permute the elements of an array .
 - Compute the next permutation
 - Sample offline data
 - Sample online data
@@ -44,7 +44,7 @@
 - 🍏 6.6 Reverse all the words in a sentence
 - 🍏 6.7 Compute all mnemonics for a phone number
 - 🍏 6.8 The look-and-say problem
-- 6.9 Convert from Roman to decimal
+- 🍏 6.9 Convert from Roman to decimal
 - 6.10 Compute all valid IP addresses
 - 6.77 Write a string sinusoidallY
 - 6.12 Implement run-length encoding
@@ -60,7 +60,7 @@
 - 🍏 7.6 Delete a node from a singly linked list .
 - 🍏 7.7 Remove the kth last element from a list . .
 - 🍏 7.8 Remove duplicates from a sorted list . .
-- 7.9 Implement cyclic right shift for singly linked lists .
+- 🍏 7.9 Implement cyclic right shift for singly linked lists .
 - 7.1O Implement even-odd merge
 - 7.71. Test whether a singly linked list is palindromic
 - 7.12 Implement list pivoting
@@ -75,7 +75,7 @@
 - 🍏 Compute buildings with a sunset view .
 - 🍏 Compute binary tree nodes in order of increasing depth
 - 🍏 Implement a circular queue
-- Implement a queue using stacks
+- 🍏 Implement a queue using stacks
 - Implement a queue with max API . .
 
 ## 9. Binary Trees
@@ -88,7 +88,7 @@
 - 🍏 9.6 Find a root to leaf path with specified sum
 - 🍏 9.7 Implement an inorder traversal without recursion
 - 🍏 9.8 Implement a preorder traversal without recursion
-- 9.9 Compute the kth node in an inorder traversal
+- 🍏 9.9 Compute the kth node in an inorder traversal
 - 9.10 Compute the successor
 - 9.1,1, Implement an inorder traversal with O(1) space .
 - 9.12 Reconstruct a binary tree from traversal data
@@ -117,8 +117,8 @@
 - 🍏 11.6 Search in a 2D sorted affay .
 - 🍏 11.7 Find the min and max simultaneously
 - 🍏 11.8 Find the kth largest element
-- 11.9 Find the missing IP address
-- 11.10 Find the duplicate and missing elements
+- 🍏 11.9 Find the missing IP address
+- 🍏 11.10 Find the duplicate and missing elements
 
 ## Hash Tables
 
@@ -128,8 +128,8 @@
 - 🍏 Compute the LCA, optimizing for close ancestors
 - 🍏 Find the nearest repeated entries in an array
 - 🍏 Find the smallest subarray covering all values
-- Find smallest subarray sequentially covering all values
-- Find the longest subarray with distinct entries
+- 🍏 Find smallest subarray sequentially covering all values
+- 🍏 Find the longest subarray with distinct entries
 - Find the length of a longest contained interval
 - Compute all string decompositions .
 - Test the Collatz conjecture
@@ -145,8 +145,8 @@
 - 🍏 13.6 Merging intervals
 - 🍏 13.7 Compute the union of intervals
 - 🍏 13.8 Partitioning and sorting an affay with many repeated entries
-- 13.9 Team photo day-1
-- 13.10 lmplement a fast sorting algorithm for lists
+- 🍏 13.9 Team photo day-1
+- 🍏 13.10 lmplement a fast sorting algorithm for lists
 - 13.11 Compute a salary threshold
 
 ## 14. Binary Search Tiees
@@ -172,7 +172,7 @@
 - 🍏 15.5 Generate all subsets of size k . . . .
 - 🍏 15.6 Generate strings of matched parens
 - 🍏 15.7 Generate palindromic decompositions
-- 15.8 Generate binary trees
+- 🍏 15.8 Generate binary trees
 - 15.9 Implement a Sudoku solver
 - 15.10 Compute a Gray code .
 
@@ -200,7 +200,7 @@
 - 🍏 17.5 Find the majority element
 - 🍏 17.6 The gasup problem
 - 🍏 17.7 Compute the maximum water trapped by a pair of vertical lines .
-- 17.8 Compute the largest rectangle under the skyline
+- 🍏 17.8 Compute the largest rectangle under the skyline
 
 ## 18 Graphs
 
