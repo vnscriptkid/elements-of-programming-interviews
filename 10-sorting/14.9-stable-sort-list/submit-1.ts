@@ -65,14 +65,3 @@ function merge(
     return list2;
   }
 }
-
-const node5 = new ListNode<number>(5);
-const node1 = new ListNode<number>(1, node5);
-const node3 = new ListNode<number>(3, node1);
-const node2 = new ListNode<number>(2, node3);
-const node4 = new ListNode<number>(4, node2);
-
-// 4 -> 2 -> 3 -> 1 -> 5 -> null
-
-const root = stableSortList(node4);
-console.log(root);
