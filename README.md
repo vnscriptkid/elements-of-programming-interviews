@@ -22,8 +22,8 @@
 - 🍏 5.7 Buy and sell a stock twice
 - Computing an altemation
 - 🍏 Enumerate all primes to n
-- 🍏Permute the elements of an array .
-- Compute the next permutation
+- 🍏 Permute the elements of an array .
+- 🍏 Compute the next permutation
 - Sample offline data
 - Sample online data
 - Compute a random permutation
@@ -45,7 +45,7 @@
 - 🍏 6.7 Compute all mnemonics for a phone number
 - 🍏 6.8 The look-and-say problem
 - 🍏 6.9 Convert from Roman to decimal
-- 6.10 Compute all valid IP addresses
+- 🍏 6.10 Compute all valid IP addresses
 - 6.77 Write a string sinusoidallY
 - 6.12 Implement run-length encoding
 - 6.13 Find the first occurrence of a substring
@@ -61,7 +61,7 @@
 - 🍏 7.7 Remove the kth last element from a list . .
 - 🍏 7.8 Remove duplicates from a sorted list . .
 - 🍏 7.9 Implement cyclic right shift for singly linked lists .
-- 7.1O Implement even-odd merge
+- 🍏 7.1O Implement even-odd merge
 - 7.71. Test whether a singly linked list is palindromic
 - 7.12 Implement list pivoting
 - 7.13 Add list-based integers
@@ -76,7 +76,7 @@
 - 🍏 Compute binary tree nodes in order of increasing depth
 - 🍏 Implement a circular queue
 - 🍏 Implement a queue using stacks
-- Implement a queue with max API . .
+- 🍏 Implement a queue with max API . .
 
 ## 9. Binary Trees
 
@@ -158,7 +158,7 @@
 - 🍏 14.5 Reconstruct a BST from traversal data
 - 🍏 14.6 Find the closest entries in three sorted arrays
 - 14.7 Enumerate numbers of the form a + b''12
-- 14.8 Build a minimum height BST from a sorted affay .
+- 🍏 14.8 Build a minimum height BST from a sorted affay .
 - 14.9 Test if three BST nodes are totally ordered
 - 14.10 The range lookup problem
 - 14.11 Add credits
@@ -173,7 +173,7 @@
 - 🍏 15.6 Generate strings of matched parens
 - 🍏 15.7 Generate palindromic decompositions
 - 🍏 15.8 Generate binary trees
-- 15.9 Implement a Sudoku solver
+- 🍏 15.9 Implement a Sudoku solver
 - 15.10 Compute a Gray code .
 
 ## 16. Dynamic Programming
@@ -185,7 +185,7 @@
 - 🍏 16.5 Search for a sequence in a 2D array
 - 🍏 16.6 The knapsack problem
 - 🍏 16.7 Thebedbathandbeyond.comproblem
-- 16.8 Find the minimum weight path in a triangle .
+- 🍏 16.8 Find the minimum weight path in a triangle .
 - 16.9 Pick up coins for maximum gain
 - 16.10 Count the number of moves to climb stairs
 - 16.11 The pretty printing problem
@@ -211,7 +211,7 @@
 - 🍏 18.5 Clone a graph
 - 🍏 18.6 Making wired connections
 - 🍏 18.7 Transform one string to another
-- 18.8 Team photo day-2
+- 🍏 18.8 Team photo day-2
 
 ## 19. Parallel Computing
 
