@@ -32,6 +32,3 @@ export function computeMaxProfit(prices: number[]) {
   return maxProfit;
 }
 
-const prices = [310, 315, 275, 295, 260, 270, 290, 230, 255, 250];
-
-computeMaxProfit(prices);

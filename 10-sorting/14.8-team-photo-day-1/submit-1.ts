@@ -38,4 +38,3 @@ export class Team {
   }
 }
 
-Team.validPlacementExists(new Team([2, 3, 4]), new Team([1, 2, 3]));
