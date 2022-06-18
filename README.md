@@ -130,7 +130,7 @@
 - 🍏 Find the smallest subarray covering all values
 - 🍏 Find smallest subarray sequentially covering all values
 - 🍏 Find the longest subarray with distinct entries
-- Find the length of a longest contained interval
+- 🍏 Find the length of a longest contained interval
 - Compute all string decompositions .
 - Test the Collatz conjecture
 - Implement a hash function for chess
@@ -147,7 +147,7 @@
 - 🍏 13.8 Partitioning and sorting an affay with many repeated entries
 - 🍏 13.9 Team photo day-1
 - 🍏 13.10 lmplement a fast sorting algorithm for lists
-- 13.11 Compute a salary threshold
+- 🍏 13.11 Compute a salary threshold
 
 ## 14. Binary Search Tiees
 
