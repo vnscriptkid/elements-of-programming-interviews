@@ -1,0 +1,34 @@
+// 17.10 COUNT THE NUMBER OF MOVES TO CLIMB STAIRS
+
+// You are climbing stairs. You can advance 1 to k steps at a time. Your destination is
+// exactly n steps up.
+
+// Write a program which takes as inputs n and k and returns the number of ways in
+// which you can get to your destination. For example, if n = 4 and k = 2, there are five
+// ways in which to get to the destination:
+
+// • four single stair advances,
+// • two single stair advancesfollowed by a double stair advance,
+// • a single stair advance followed by a double stair advance followed by a single stair advance,
+// • a double stair advance followed by two single stairs advances, and
+// • two double stair advances.
+
+export function numberOfWaysToTop(n: number, maximumStep: number, cache: Record<string, number> = {}): number {
+    const cacheKey = String([n, maximumStep]);
+
+    if (!(cacheKey in cache)) {
+        if (n === 0) return 1;
+
+        let ways = 0;
+
+        for (let lastStep = 1; lastStep <= maximumStep; lastStep++) {
+            if (n >= lastStep) {
+                ways += numberOfWaysToTop(n - lastStep, maximumStep, cache);
+            }
+        }
+        cache[cacheKey] = ways;
+    }
+
+    return cache[cacheKey];
+}
+
