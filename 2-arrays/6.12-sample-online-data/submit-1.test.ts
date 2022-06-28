@@ -14,5 +14,4 @@ test('it works', () => {
         expect(x.data).toHaveLength(2);
     })
 
-    console.log(result);
 })
