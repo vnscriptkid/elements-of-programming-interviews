@@ -24,10 +24,10 @@
 - 🍏 Enumerate all primes to n
 - 🍏 Permute the elements of an array .
 - 🍏 Compute the next permutation
-- Sample offline data
-- Sample online data
-- Compute a random permutation
-- Compute a random subset
+- 🍏 Sample offline data
+- 🍏 Sample online data
+- 🍏 Compute a random permutation
+- 🍏 Compute a random subset
 - Generate nonuniform random numbers
 - The Sudoku checker problem
 - Compute the spiral ordering of a2D affay .
@@ -46,9 +46,9 @@
 - 🍏 6.8 The look-and-say problem
 - 🍏 6.9 Convert from Roman to decimal
 - 🍏 6.10 Compute all valid IP addresses
-- 6.77 Write a string sinusoidallY
-- 6.12 Implement run-length encoding
-- 6.13 Find the first occurrence of a substring
+- 🍏 6.77 Write a string sinusoidallY
+- 🍏 6.12 Implement run-length encoding
+- 🍏 6.13 Find the first occurrence of a substring
 
 ## 7. Linked Lists
 
@@ -62,9 +62,9 @@
 - 🍏 7.8 Remove duplicates from a sorted list . .
 - 🍏 7.9 Implement cyclic right shift for singly linked lists .
 - 🍏 7.1O Implement even-odd merge
-- 7.71. Test whether a singly linked list is palindromic
-- 7.12 Implement list pivoting
-- 7.13 Add list-based integers
+- 🍏 7.71. Test whether a singly linked list is palindromic
+- 🍏 7.12 Implement list pivoting
+- 🍏 7.13 Add list-based integers
 
 ## 8. Stacks and Queues
 
@@ -89,13 +89,13 @@
 - 🍏 9.7 Implement an inorder traversal without recursion
 - 🍏 9.8 Implement a preorder traversal without recursion
 - 🍏 9.9 Compute the kth node in an inorder traversal
-- 9.10 Compute the successor
-- 9.1,1, Implement an inorder traversal with O(1) space .
-- 9.12 Reconstruct a binary tree from traversal data
-- 9.13 Reconstruct a binary tree from a preorder traversal with markers
-- 9.1,4 Form a linked list from the leaves of a binary tree .
-- 9.75 Compute the exterior of a binary tree .
-- 9.1,6 Compute the right sibling tree .
+- 🍏 9.10 Compute the successor
+- 🍏 9.11, Implement an inorder traversal with O(1) space .
+- 🍏 9.12 Reconstruct a binary tree from traversal data
+- 🍏 9.13 Reconstruct a binary tree from a preorder traversal with markers
+- 🍏 9.14 Form a linked list from the leaves of a binary tree .
+- 9.15 Compute the exterior of a binary tree .
+- 9.16 Compute the right sibling tree .
 
 ## 10. Heaps
 
@@ -131,8 +131,8 @@
 - 🍏 Find smallest subarray sequentially covering all values
 - 🍏 Find the longest subarray with distinct entries
 - 🍏 Find the length of a longest contained interval
-- Compute all string decompositions .
-- Test the Collatz conjecture
+- 🍏 Compute all string decompositions .
+- 🍏 Test the Collatz conjecture
 - Implement a hash function for chess
 
 ## 13. Sorting
@@ -159,9 +159,9 @@
 - 🍏 14.6 Find the closest entries in three sorted arrays
 - 14.7 Enumerate numbers of the form a + b''12
 - 🍏 14.8 Build a minimum height BST from a sorted affay .
-- 14.9 Test if three BST nodes are totally ordered
-- 14.10 The range lookup problem
-- 14.11 Add credits
+- 🍏 14.9 Test if three BST nodes are totally ordered
+- 🍏 14.10 The range lookup problem
+- 🍏 14.11 Add credits
 
 ## 15. Recursion
 
@@ -174,7 +174,7 @@
 - 🍏 15.7 Generate palindromic decompositions
 - 🍏 15.8 Generate binary trees
 - 🍏 15.9 Implement a Sudoku solver
-- 15.10 Compute a Gray code .
+- 🍏 15.10 Compute a Gray code .
 
 ## 16. Dynamic Programming
 
@@ -186,10 +186,10 @@
 - 🍏 16.6 The knapsack problem
 - 🍏 16.7 Thebedbathandbeyond.comproblem
 - 🍏 16.8 Find the minimum weight path in a triangle .
-- 16.9 Pick up coins for maximum gain
-- 16.10 Count the number of moves to climb stairs
-- 16.11 The pretty printing problem
-- 16.12 Find the longest nondecreasing subsequence
+- 🍏 16.9 Pick up coins for maximum gain
+- 🍏 16.10 Count the number of moves to climb stairs
+- 🍏 16.11 The pretty printing problem
+- 🍏 16.12 Find the longest nondecreasing subsequence
 
 ## 17. Greedy Algorithms and Invariants
 
