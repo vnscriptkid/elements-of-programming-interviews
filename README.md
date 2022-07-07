@@ -133,7 +133,7 @@
 - 🍏 Find the length of a longest contained interval
 - 🍏 Compute all string decompositions .
 - 🍏 Test the Collatz conjecture
-- Implement a hash function for chess
+- 🍏 Implement a hash function for chess
 
 ## 13. Sorting
 
