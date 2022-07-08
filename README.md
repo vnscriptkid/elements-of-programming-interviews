@@ -94,7 +94,7 @@
 - 🍏 9.12 Reconstruct a binary tree from traversal data
 - 🍏 9.13 Reconstruct a binary tree from a preorder traversal with markers
 - 🍏 9.14 Form a linked list from the leaves of a binary tree .
-- 9.15 Compute the exterior of a binary tree .
+- 🍏 9.15 Compute the exterior of a binary tree .
 - 9.16 Compute the right sibling tree .
 
 ## 10. Heaps
@@ -113,7 +113,7 @@
 - 🍏 11.2 Search a sorted array for entry equal to its index
 - 🍏 11.3 Search a cyclically sorted array
 - 🍏 11.4 Compute the integer square root
-- 11.5 Compute the real square root
+- 🍏 11.5 Compute the real square root
 - 🍏 11.6 Search in a 2D sorted affay .
 - 🍏 11.7 Find the min and max simultaneously
 - 🍏 11.8 Find the kth largest element

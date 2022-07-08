@@ -1,3 +1,5 @@
+// COMPUTE THE REAL SQUARE ROOT
+
 // Square root computations can be implemented using sophisticated numerical techniques
 // involving iterative methods and logarithms.
 // However, if you were asked to implement a square root function,
@@ -9,22 +11,44 @@ export function squareRoot(x: number): number {
   // 1 2 3 4 5 6 7 8 9
   // l       m       r
 
-  let left = 1,
-    right = x;
+  // default is x >= 1
+  let left = 0;
+  let right = x;
+
+  if (x < 1) {
+    left = x;
+    right = 1;
+  }
 
   while (left <= right) {
-    let middle = ~~(left + (right - left) / 2);
+    let middle = left + (right - left) / 2;
 
-    if (middle * middle === x) return middle;
+    const squared = middle * middle;
 
-    if (middle * middle > x) {
-      // need a smaller middle
-      right = middle - 1;
+    const comparingResult = compare(squared, x);
+
+    if (comparingResult === Ordering.EQUAL) {
+      return Number(middle.toFixed(2));
+    }
+
+    if (comparingResult === Ordering.GREATER) {
+      right = middle;
     } else {
-      // need a larger middle
-      left = middle + 1;
+      left = middle;
     }
   }
 
   return -1;
+}
+
+enum Ordering { EQUAL, LESS, GREATER }
+
+function compare(a: number, b: number): Ordering {
+  const EQUAL_DEF = 0.0001;
+
+  const diff = a - b;
+
+  if (Math.abs(diff) <= EQUAL_DEF) return Ordering.EQUAL;
+
+  return diff > 0 ? Ordering.GREATER : Ordering.LESS;
 }
