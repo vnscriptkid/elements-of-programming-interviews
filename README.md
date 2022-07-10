@@ -30,7 +30,7 @@
 - 🍏 Compute a random subset
 - 🍏 Generate nonuniform random numbers
 - 🍏 The Sudoku checker problem
-- Compute the spiral ordering of a2D affay .
+- 🍏 Compute the spiral ordering of a2D affay .
 - Rotate a2D array
 - Compute rows in Pascal's Triangle
 
