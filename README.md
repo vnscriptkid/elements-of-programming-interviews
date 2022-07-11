@@ -95,7 +95,7 @@
 - 🍏 9.13 Reconstruct a binary tree from a preorder traversal with markers
 - 🍏 9.14 Form a linked list from the leaves of a binary tree .
 - 🍏 9.15 Compute the exterior of a binary tree .
-- 9.16 Compute the right sibling tree .
+- 🍏 9.16 Compute the right sibling tree .
 
 ## 10. Heaps
 
